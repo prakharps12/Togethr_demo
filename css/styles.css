@@ -1,0 +1,21 @@
+body {
+  background-color: #81ecec;
+}
+
+.topnav {
+  padding: 20px 510px;
+  border-radius: 50px 10px 50px 10px;
+  background-color: #696969;
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
