@@ -4,7 +4,8 @@ Prototye of a application designed for Togethr(Your personal shopping expert).
 This application allows a new user to register, login and look for desired product using the search functionality.  
 When a user searches for a particular product, its description is provided after summarizing using NLP i.e utilizing OpenAI api.  
 Database used to store the user's details is PostgreSQL.  
-Database stores user's search history, user's ID password.  
+Database stores user's search history, user's e-mail ID and password after hashing it.
+Here bcrypt was utilised to perform hashing using saltsounds to be aprrox in (5 to 10) depending upon need.  
 Developed a script in python using beautifulSoup that performs searches within the pre-defined sources (pick any tech or gadget review websites) and scrapes data.  
 In the above Script we utilized Pandas to create a dataframe and converted that data frame to a csv file.  
 
